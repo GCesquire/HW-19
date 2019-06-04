@@ -1,15 +1,15 @@
-import beth from './images/beth.png';
-import birdperson from './images/birdperson.png';
-import evilmorty from './images/evilmorty.png';
-import gianthead from './images/gianthead.png';
-import jerry from './images/jerry.png';
-import jessica from './images/jessica.png';
-import meeseeks from './images/meeseeks.png';
-import morty from './images/Morty.png';
-import picklerick from './images/picklerick.png';
-import rick from './images/rick.png';
-import squanchy from './images/squanchy.png';
-import summer from './images/summer.png';
+import beth from './images/Beth.png';
+import birdperson from './images/Birdperson.png';
+import evilmorty from './images/EvilMorty.png';
+import gianthead from './images/GiantHead.png';
+import jerry from './images/JerrySmith.png';
+import jessica from './images/Jessica.png';
+import meeseeks from './images/MrMeeseeks.png';
+import morty from './images/MortySmith.png';
+import picklerick from './images/PickleRick.png';
+import rick from './images/Rick.png';
+import squanchy from './images/Squanchy.png';
+import summer from './images/SummerSmith.png';
 
 const images = [
     beth,
