@@ -1,4 +1,4 @@
-import beth from './images/Beth.png';
+import beth from './images/BethSmith.png';
 import birdperson from './images/Birdperson.png';
 import evilmorty from './images/EvilMorty.png';
 import gianthead from './images/GiantHead.png';
