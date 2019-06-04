@@ -50,7 +50,7 @@ class ClickyGame extends Component {
                 score: score,
                 highScore: highScore,
                 messageColor: 'incorrect',
-                message: 'Incorrect guess!',
+                message: 'WRONG!',
                 characters: shuffled,
                 wasClicked: [],
                 shake: true
@@ -61,7 +61,7 @@ class ClickyGame extends Component {
             score: score,
             highScore: highScore,
             messageColor: 'correct',
-            message: 'You Guessed Correctly!',
+            message: 'RIGHT!',
             characters: shuffled,
             wasClicked: originalState,
             shake: false
