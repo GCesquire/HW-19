@@ -4,7 +4,7 @@ import Cromulon from './images/Cromulon.png';
 import EvilMorty from './images/EvilMorty.png';
 import Header from './images/Header.png';
 import JerrySmith from './images/JerrySmith.png';
-import Jessica from './images/Jessica.png';
+import KingFlippyNips from './images/KingFlippyNips.png';
 import MrMeeseeks from './images/MrMeeseeks.png';
 import MortySmith from './images/MortySmith.png';
 import PickleRick from './images/PickleRick.png';
@@ -19,7 +19,7 @@ const images = [
     EvilMorty,
     Header,
     JerrySmith,
-    Jessica,
+    KingFlippyNips,
     MrMeeseeks,
     MortySmith,
     PickleRick,
