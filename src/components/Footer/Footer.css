@@ -1,9 +1,9 @@
 .footer {
     background-color: cyan;
-    -webkit-box-shadow: 0 -14px 28px black, 0 10px 10px black;
-    box-shadow: 0 -14px 28px black, 0 10px 10px black;
+    -webkit-box-shadow: 0 -10px 20px black, 0 10px 10px black;
+    box-shadow: 0 -10px 20px black, 0 10px 10px black;
     color: silver;
-    font-size: 18px;
+    font-size: 20px;
     height: 50px;
     padding: 10px 0;
 }
