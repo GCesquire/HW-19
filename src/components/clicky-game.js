@@ -13,7 +13,6 @@ class ClickyGame extends Component {
         message: 'Click An Image To Start Playing!',
         characters: this.randomizeArray(),
         wasClicked: [],
-        shake: false
     };
 
     clickEvent = this.checkClicked.bind(this);
@@ -50,10 +49,9 @@ class ClickyGame extends Component {
                 score: score,
                 highScore: highScore,
                 messageColor: 'incorrect',
-                message: 'WRONG!!!',
+                message: 'WRONG MORTY!!!',
                 characters: shuffled,
                 wasClicked: [],
-                shake: true
             });
         }
 
@@ -61,10 +59,9 @@ class ClickyGame extends Component {
             score: score,
             highScore: highScore,
             messageColor: 'correct',
-            message: 'CORRECT!!!',
+            message: 'WUBBA DUBBA DUB DUB!!!',
             characters: shuffled,
             wasClicked: originalState,
-            shake: false
         });
     return setTimeout(() => this.setState({ messageColor: '' }), 500);
     }
@@ -81,7 +78,6 @@ class ClickyGame extends Component {
         />
         <Header/>
         <Container
-            shake={state.shake}
             characters={state.characters}
             clickEvent={this.clickEvent}
         />

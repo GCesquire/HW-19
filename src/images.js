@@ -1,8 +1,8 @@
 import BethSmith from './images/BethSmith.png';
-import BG from './images/BG.png';
 import Birdperson from './images/Birdperson.png';
 import EvilMorty from './images/EvilMorty.png';
 import GiantHead from './images/GiantHead.png';
+import Header from './images/Header.png';
 import JerrySmith from './images/JerrySmith.png';
 import Jessica from './images/Jessica.png';
 import MrMeeseeks from './images/MrMeeseeks.png';
@@ -14,10 +14,10 @@ import SummerSmith from './images/SummerSmith.png';
 
 const images = [
     BethSmith,
-    BG,
     Birdperson,
     EvilMorty,
     GiantHead,
+    Header,
     JerrySmith,
     Jessica,
     MrMeeseeks,
