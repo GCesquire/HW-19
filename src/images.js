@@ -1,5 +1,5 @@
 import BethSmith from './images/BethSmith.png';
-import Birdperson from './images/Birdperson.png';
+import EvilRick from './images/EvilRick.png';
 import Cromulon from './images/Cromulon.png';
 import EvilMorty from './images/EvilMorty.png';
 import Header from './images/Header.png';
@@ -14,9 +14,9 @@ import SummerSmith from './images/SummerSmith.png';
 
 const images = [
     BethSmith,
-    Birdperson,
     Cromulon,
     EvilMorty,
+    EvilRick,
     Header,
     JerrySmith,
     KingFlippyNips,
