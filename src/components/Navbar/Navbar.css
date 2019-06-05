@@ -1,11 +1,11 @@
 .navbar {
     background: cyan;
-    min-height: 70px;
-    font-size: 18px;
+    min-height: 80px;
+    font-size: 20px;
     padding: 20px 0;
     width: 100%;
-    -webkit-box-shadow: 0 14px 28px black, 0 10px 10px black;
-    box-shadow: 0 14px 28px black, 0 10px 10px black;
+    -webkit-box-shadow: 0 10px 20px black, 0 10px 10px black;
+    box-shadow: 0 10px 20px black, 0 10px 10px black;
     color: silver;
     z-index: 99;
     white-space: nowrap;
@@ -34,47 +34,8 @@
     animation: incorrectGuess 0.5s;
 }
 
-@keyframes incorrectGuess {
-    0% {
-        color: silver;
-    }
-    25% {
-        color: black;
-    }
-    75% {
-        color: black;
-    }
-    100% {
-        color: silver;
-    }
-}
-
-@keyframes correctGuess {
-    0% {
-        color: silver;
-    }
-    25% {
-        color: blueviolet;
-    }
-    75% {
-        color: blueviolet;
-    }
-    100% {
-        color: silver;
-    }
-}
-
-@media (min-width: 576px) {
-    .navbar {
-        display: flex;
-        position: fixed;
-        justify-content: space-around;
-        font-size: calc(10px + 14 * (100vw - 320px) / 800);
-    }
-
 .navbar div {
         margin-bottom: 0;
         text-align: center;
         width: 33.333%;
     }
-}
